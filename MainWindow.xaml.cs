@@ -41,6 +41,11 @@ namespace Generator_ID
                     this.IsEnabled = true;
                 }
             }
+            else
+            {
+                MessageBox.Show("Введите кол-во символов!");
+                this.IsEnabled = true;
+            }
         }
         public string Receive_String(int a)
         {
